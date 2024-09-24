@@ -1,0 +1,281 @@
+/* * {
+  font-family: "DM Sans", sans-serif;
+  font-family: "Playfair Display";
+} */
+
+.land {
+  width: 100%;
+  height: 802px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://muthonimn.github.io/static-restaurant-website/img/image%20110.png);
+  background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.main {
+  display: flex;
+  width: 667px;
+  height: 392px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main h1 {
+  font-family: "Playfair Display";
+  width: 667px;
+  height: 192px;
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 96px;
+  text-align: center;
+}
+
+.main p {
+  width: 537px;
+  height: 64px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+}
+
+.land .main .contant {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.btn {
+  width: 349px;
+  height: 64px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.btn .btn-book {
+  width: 163px;
+  height: 64px;
+  font-family: "DM Sans", sans-serif;
+  border-radius: 38px;
+  -webkit-border-radius: 38px;
+  -moz-border-radius: 38px;
+  -ms-border-radius: 38px;
+  -o-border-radius: 38px;
+  padding: 8px 24px;
+  background-color: #AD343E;
+  color: #ffff;
+  outline: none;
+  border: 1px solid #AD343E;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+.btn .btn-book:hover {
+  background-color: transparent;
+  color: #AD343E;
+}
+
+.btn .btn-menu {
+  width: 163px;
+  height: 64px;
+  font-family: "DM Sans", sans-serif;
+  border-radius: 38px;
+  -webkit-border-radius: 38px;
+  -moz-border-radius: 38px;
+  -ms-border-radius: 38px;
+  -o-border-radius: 38px;
+  padding: 8px 24px;
+  background-color: transparent;
+  color: black;
+  border: 1.5px solid black;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+.btn .btn-menu:hover {
+  background-color: black;
+  color: #ffff;
+}
+
+@media screen and (min-width: 0px) and (max-width: 767px) {
+  .land {
+    height: 525px;
+  }
+
+  .main {
+    width: 100%;
+    height: 270px;
+  }
+
+  .main h1 {
+    width: 100%;
+    font-size: 56px;
+    line-height: 49px;
+    height: 110px;
+  }
+
+  .main p {
+    width: 80%;
+    font-size: 14px;
+    line-height: 24px;
+    height: 55px;
+  }
+
+  .btn {
+    height: 44px;
+  }
+
+  .btn .btn-book {
+    font-size: 13px;
+    width: 135px;
+    height: 43px;
+  }
+
+  .btn .btn-menu {
+    font-size: 12px;
+    width: 135px;
+    height: 43px;
+  }
+
+}
+
+.sec-menu {
+  width: 100%;
+  height: 712px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.sec-menu .menu-cards {
+    width: 1296px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sec-menu .menu-cards h2 {
+  font-family: "Playfair Display";
+  width: 450px;
+  height: 61px;
+  font-weight: 500;
+  font-size: 55px;
+  line-height: 60.5px;
+  text-align: center;
+}
+
+.sec-menu .menu-cards .cards {
+    display: flex;
+    width: 1296px;
+    height: 375px;
+    gap: 24px;
+}
+
+.sec-menu .menu-cards .cards .card {
+  width: 306px;
+  height: 375px;
+  border: 1.5px solid #DBDFD0;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 36px;
+}
+
+.sec-menu .menu-cards .cards .card .img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  background-color: #b3b3b32e;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.sec-menu .menu-cards .cards .card h3 {
+  width: 150px;
+  height: 30px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.sec-menu .menu-cards .cards .card p {
+  width: 238px;
+  height: 72px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.sec-menu .menu-cards .cards .card a {
+  width: 110px;
+  height: 24px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  text-decoration: none;
+  color: #AD343E;
+}
+
+.sec-menu .menu-cards .cards .card a:hover {
+  border-bottom: 2px solid #AD343E;
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 767px) {
+  .sec-menu {
+    width: 100%;
+    height: 1800px;
+  }
+
+  .sec-menu .menu-cards {
+    width: 100%;
+    height: 1675px;
+  }
+
+  .sec-menu .menu-cards h2 {
+    width: 100%;
+    font-size: 43px;
+  }
+
+  .sec-menu .menu-cards .cards {
+    display: flex;
+    width: 100%;
+    height: 1572px;
+    gap: 24px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+}
