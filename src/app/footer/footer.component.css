@@ -16,6 +16,7 @@ footer {
 footer .first {
   width: 1296px;
   height: 519px;
+  padding: 45px 0 0 0;
   display: flex;
   justify-content: space-between;
 }

@@ -1,3 +1,97 @@
+<section class="first">
+  <div class="main1">
+    <div class="head">
+      <h1>Our Menu</h1>
+      <p>We consider all the drivers of change gives you the components you need to change to create a truly happens.</p>
+      <ul>
+        <li>
+          <a href="javascript:void(0)"
+             [ngClass]="{'active-category': selectedCategory === 'All'}"
+             (click)="selectCategory('All')">
+            All
+          </a>
+        </li>
+        <li>
+          <a href="javascript:void(0)"
+             [ngClass]="{'active-category': selectedCategory === 'Breakfast'}"
+             (click)="selectCategory('Breakfast')">
+            Breakfast
+          </a>
+        </li>
+        <li>
+          <a href="javascript:void(0)"
+             [ngClass]="{'active-category': selectedCategory === 'Main Dishes'}"
+             (click)="selectCategory('Main Dishes')">
+            Main Dishes
+          </a>
+        </li>
+        <li>
+          <a href="javascript:void(0)"
+             [ngClass]="{'active-category': selectedCategory === 'Drinks'}"
+             (click)="selectCategory('Drinks')">
+            Drinks
+          </a>
+        </li>
+        <li>
+          <a href="javascript:void(0)"
+             [ngClass]="{'active-category': selectedCategory === 'Desserts'}"
+             (click)="selectCategory('Desserts')">
+            Desserts
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="products">
+      <div class="cards" *ngFor="let product of displayedProducts">
+        <div>
+          <!-- <img [src]="product.productImage.replace('uploads\\', '')" alt=""> -->
+          <img [src]="product.productImage" alt="">
+        </div>
+        <div class="inf">
+          <h3 class="price">$ {{product.price}}</h3>
+          <p class="title">{{product.title}}</p>
+          <p class="info">{{product.info}}</p>
+        </div>
+      </div>
+    </div>
+    <div class="pagination">
+      <button (click)="previousPage()" [disabled]="currentPage === 1"><i class="fa-solid fa-arrow-left"></i></button>
+      <span>{{currentPage}}</span>
+      <button (click)="nextPage()" [disabled]="currentPage * itemsPerPage >= totalItems"><i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+  </div>
+</section>
+
+<!-- <section class="first">
+  <div class="main1">
+    <div class="head">
+      <h1>Our Menu</h1>
+      <p>We consider all the drivers of change gives you the components you need to change to create a truly happens.</p>
+      <ul>
+        <li><a href="">All</a></li>
+        <li><a href="">Breakfast</a></li>
+        <li><a href="">Main Dishes</a></li>
+        <li><a href="">Drinks</a></li>
+        <li><a href="">Desserts</a></li>
+      </ul>
+    </div>
+    <div class="products">
+        @for (product of productsArray; track $index) {
+          <div class="cards">
+            <div>
+              <img [src]="product.productImage.replace('uploads\\', '')" alt="">
+            </div>
+            <div class="inf">
+              <h3 class="price">$ {{product.price}}</h3>
+              <p class="title">{{product.title}}</p>
+              <p class="info">{{product.info}}</p>
+            </div>
+          </div>
+        }
+    </div>
+  </div>
+</section> -->
 <section class="second">
   <div class="main">
     <div class="left">
