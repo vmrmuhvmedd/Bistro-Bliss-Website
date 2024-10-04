@@ -57,11 +57,13 @@
   width: 349px;
   height: 64px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  align-items: center;
+  gap: 16px;
 }
 
-.btn .btn-book {
-  width: 163px;
+.btn .btn-book{
+  width: 170px;
   height: 64px;
   font-family: "DM Sans", sans-serif;
   border-radius: 38px;
@@ -78,7 +80,13 @@
   font-size: 16px;
   line-height: 24px;
   cursor: pointer;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+
 
 .btn .btn-book:hover {
   background-color: transparent;
@@ -102,6 +110,10 @@
   font-size: 16px;
   line-height: 24px;
   cursor: pointer;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .btn .btn-menu:hover {

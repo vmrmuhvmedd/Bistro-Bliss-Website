@@ -1,0 +1,298 @@
+.first {
+  width: 100%;
+  height: 586px;
+  background-color: #F9F9F7;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.first .main {
+  width: 812px;
+  height: 752px;
+  border: 1px;
+  position: absolute;
+  top: 100px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.first .main .content {
+  width: 576px;
+  height: 176px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  text-align: center;
+}
+
+.first .main .content h1 {
+  width: 576px;
+  height: 96px;
+  font-family: "Playfair Display";
+  font-size: 100px;
+  font-weight: 400;
+  line-height: 96px;
+  text-align: center;
+  color: #2C2F24;
+}
+
+.first .main .content p {
+  width: 545px;
+  height: 56px;
+  font-family: "DM Sans";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+  color: #495460;
+}
+
+form {
+  width: 812px;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #FFFFFF;
+  background-color: #FFFFFF;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 0px 2.98px 59.57px 0px #00000014;
+}
+
+form .top,
+form .midone,
+form .midtwo,
+form .bottom
+{
+  display: flex;
+  flex-direction: row;
+}
+
+form .top {
+  width: 717px;
+  height: 92px;
+  justify-content: space-between;
+  /* gap: 24x; */
+}
+
+form label {
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  color: #2C2F24;
+}
+
+form .top div {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: space-between;
+  width: 350px;
+  height: 92px;
+  gap: 8px;
+}
+
+form .top div input {
+  width: 350px;
+  height: 60px;
+  padding: 0px 24px;
+  border-radius: 72px;
+  border: 1px solid #DBDFD0;
+  -webkit-border-radius: 72px;
+  -moz-border-radius: 72px;
+  -ms-border-radius: 72px;
+  -o-border-radius: 72px;
+}
+
+form .midone {
+  width: 717px;
+  height: 92px;
+  /* justify-content: space-between; */
+  /* gap: 24x; */
+}
+
+form .midone div {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: space-between;
+  width: 100%;
+  height: 92px;
+  gap: 8px;
+}
+
+form .midone div input {
+  width: 100%;
+  height: 60px;
+  padding: 0px 24px;
+  border-radius: 72px;
+  border: 1px solid #DBDFD0;
+  -webkit-border-radius: 72px;
+  -moz-border-radius: 72px;
+  -ms-border-radius: 72px;
+  -o-border-radius: 72px;
+}
+
+form .midtwo {
+  width: 717px;
+  height: 188px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+form .midtwo textarea {
+  min-width: 717px;
+  max-width: 717px;
+  max-height: 156px;
+  min-height: 156px;
+  padding: 10px 19px;
+  border: 1px solid #DBDFD0;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+}
+
+form .botom {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 717px;
+  height: 64px;
+}
+
+form .bottom .btn {
+  width: 717px;
+  height: 64px;
+  padding: 20px 32px 20px 32px;
+  border: 1px solid #AD343E;
+  background-color: #AD343E;
+  border-radius: 118px;
+  -webkit-border-radius: 118px;
+  -moz-border-radius: 118px;
+  -ms-border-radius: 118px;
+  -o-border-radius: 118px;
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+form .bottom .btn:hover {
+  background-color: transparent;
+  color: #AD343E;
+}
+
+.second {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.second .secondMain {
+  width: 776px;
+  height: 134px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 75px;
+}
+
+.second .secondMain .card1 {
+  width: 200px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.second .secondMain .card1 p {
+  font-family: "DM Sans";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: left;
+  color: #2C2F24;
+}
+
+.second .secondMain .card1 h3 {
+  font-family: "DM Sans";
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: #AD343E;
+
+}
+
+.second .secondMain .card2 {
+  width: 187px;
+  height: 106px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.second .secondMain .card2 .firstp {
+  font-family: "DM Sans";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: left;
+  color: #2C2F24;
+}
+
+.second .secondMain .card2 .secondp {
+  color: #2C2F24;
+  font-family: "DM Sans";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+
+}
+
+.second .secondMain .card3 {
+  width: 209px;
+  height: 134px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.second .secondMain .card3 .firstp {
+  color: #2C2F24;
+  font-family: DM Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: left;
+}
+
+.second .secondMain .card3 .secondp {
+  color: #2C2F24;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+}

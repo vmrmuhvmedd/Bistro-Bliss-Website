@@ -4,30 +4,30 @@
           <h1>Book A Table</h1>
           <p>We consider all the drivers of change gives you the components you need to change to create a truly happens.</p>
       </div>
-      <form>
+      <form (submit)="fetchData($event)">
           <div class="top">
               <div>
                 <label for="Date">Date</label>
-                <input type="date" name="Date" id="Date">
+                <input type="date" name="Date" id="Date" required>
               </div>
               <div>
                 <label for="Time">Time</label>
-                <input type="time" name="Time" id="Time">
+                <input type="time" name="Time" id="Time" required>
               </div>
           </div>
           <div class="midone">
             <div>
               <label for="Name">Name</label>
-              <input type="text" name="Name" id="Name" placeholder="Enter your name">
+              <input type="text" name="Name" id="Name" placeholder="Enter your name" required>
             </div>
             <div>
               <label for="">Phone</label>
-              <input type="tel" name="Phone" id="Phone" placeholder="x-xxx-xxx-xxxx">
+              <input type="tel" name="Phone" id="Phone" placeholder="x-xxx-xxx-xxxx" required>
             </div>
           </div>
           <div class="midtwo">
             <label for="Total">Total Person</label>
-            <input type="text" name="Total Person" id="Total" placeholder="1 Person">
+            <input type="text" name="Total Person" id="Total" placeholder="1 Person" required>
           </div>
           <div class="bottom">
             <button class="btn">Book A Table</button>

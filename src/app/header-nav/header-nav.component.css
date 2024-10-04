@@ -117,6 +117,15 @@ nav ul li a {
   padding: 4px 16px 4px 16px;
 }
 
+.active {
+  background-color: #DBDFD0;
+  border-radius: 34px;
+  -webkit-border-radius: 34px;
+  -moz-border-radius: 34px;
+  -ms-border-radius: 34px;
+  -o-border-radius: 34px;
+}
+
 nav ul li:hover {
   background-color: #DBDFD0;
   border-radius: 34px;
